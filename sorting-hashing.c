@@ -38,6 +38,7 @@ int search(int *ht, int key);
 
 int main()
 {
+	printf("[-----[2022078014]	[최 현 철]-----]");
 	char command;
 	int *array = NULL;
 	int *hashtable = NULL;
