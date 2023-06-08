@@ -274,7 +274,7 @@ int bubbleSort(int *a)
 
     for (i = 0; i < MAX_ARRAY_SIZE; i++)
     {
-        for (j = 0; j < MAX_ARRAY_SIZE; j++)
+        for (j = 1; j < MAX_ARRAY_SIZE; j++)
         {
             if (a[j - 1] > a[j])  // 이웃한 두 요소를 비교하여 정렬 순서를 조정합니다.
             {
